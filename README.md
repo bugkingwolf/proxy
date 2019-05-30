@@ -1,7 +1,5 @@
-# proxy
+# 代理模式
 
-## 代理模式
-------------
 
 ### JDK Proxy 原理:
 
@@ -19,6 +17,7 @@
 ### Jdk代理和cglib代理区别: 
 
     1.Jdk代理是实现了被代理类对象的接口，cglib是继承了被代理类对象  
-    2.jdk代理和cglib代理都是重新生成了class字节码，jdk代理是直接写class字节码，cglib是使用了ASM框架写字节码，cglib更复杂，效率低一些  
+    2.jdk代理和cglib代理都是重新生成了class字节码，jdk代理是直接写class字节码，cglib是使用了ASM框架写字节码，  
+      cglib更复杂，效率低一些  
     3.jdk调用代理类是采用反射机制，cglib是使用fastclass机制直接调用，cglib调用效率高一些  
  
